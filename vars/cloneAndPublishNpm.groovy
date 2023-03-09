@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def call() {
   String repoUrl = 'git@github.com:HankRoughknuckles/dummy-js.git'
   sh "echo 'Cloning the repo'"
